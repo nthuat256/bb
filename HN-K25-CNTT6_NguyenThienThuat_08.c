@@ -4,7 +4,6 @@ int main (){
 	int arr[100];
 	int n=0,i,j;
 	int choice;
-	int sorted = 0;
 	int number1;
 	while(number1){
 		printf("\n========================MENU========================\n");
@@ -35,7 +34,7 @@ int main (){
 				printf("arr[%d]= ",i);
 				scanf("%d",&arr[i]);
 			}
-			sorted=0;
+			number1=0;
 			break;
 		   }
 		   case 2:{
